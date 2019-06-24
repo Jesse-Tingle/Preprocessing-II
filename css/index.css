@@ -224,7 +224,7 @@ header nav a {
 }
 @media (max-width: 500px) {
   .home .content-wecome .welcome {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -232,6 +232,7 @@ header nav a {
 @media (max-width: 500px) {
   .home .content-wecome .welcome .bus-image {
     padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .home .content-wecome .welcome h2 {
@@ -253,20 +254,48 @@ header nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 95%;
+    margin-left: 5%;
+    padding-right: 0px;
+  }
 }
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
 .home .content-section .img-content img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content img {
+    width: 90%;
+  }
 }
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
