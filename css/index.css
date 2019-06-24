@@ -178,6 +178,7 @@ header {
 header nav {
   display: flex;
   width: 50%;
+  align-items: center;
 }
 header nav a {
   width: 22%;
@@ -195,6 +196,13 @@ header nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .content-wecome .welcome {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 10px;
+}
+.home .content-wecome .welcome h2 {
+  padding-top: 25px;
 }
 .home .content-section {
   margin: 30px 0;
